@@ -153,6 +153,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         };
+
+        //adding event listener to messages database reference
+        mMessagesDatabaseReference.addChildEventListener(mChildEventListener);
     }
 
     @Override
