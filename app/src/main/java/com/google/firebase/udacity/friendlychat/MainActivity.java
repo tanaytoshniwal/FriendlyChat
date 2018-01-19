@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                 //photo url set to null by default
                 mMessagesDatabaseReference.push().setValue(friendlyMessage);
                 // Clear input box
-                mMessageEditText.setText("");
+                 mMessageEditText.setText("");
             }
         });
 
