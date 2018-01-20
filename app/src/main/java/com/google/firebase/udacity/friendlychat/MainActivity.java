@@ -258,6 +258,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.sign_out_menu:{
                 //signout
+                AuthUI.getInstance().signOut(this);
                 return true;
             }
             default:
